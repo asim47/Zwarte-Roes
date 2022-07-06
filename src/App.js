@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react'
 import { Route, Navigate, Routes } from "react-router-dom";
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 
 const Home = lazy(() => import("./pages/Home"))
 
@@ -18,9 +18,9 @@ const App = (props) => {
     )
 }
 
-App.propTypes = {
+// App.propTypes = {
 
-}
+// }
 
 
 export default App

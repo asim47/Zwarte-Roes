@@ -1,0 +1,26 @@
+.coco {
+  background-color: #f0f0f0 !important;
+  height: 65px;
+}
+.bar-slogan {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: underline;
+  padding-inline: 60px;
+  color: #29201d !important ;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.slogan {
+  align-items: center;
+}
+
+@media (max-width: 320px) {
+  .bar-slogan {
+    padding-inline: 40px;
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+  }
+}
