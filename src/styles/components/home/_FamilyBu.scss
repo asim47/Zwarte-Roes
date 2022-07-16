@@ -1,0 +1,98 @@
+@mixin fontFix {
+  font-family: "Quicksand";
+  font-style: normal;
+}
+.fam-con {
+  padding-block: 5em;
+}
+.hearts {
+  position: absolute;
+  left: 34em;
+
+  bottom: 41em;
+}
+.fam-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.know {
+  color: $yellow;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 52px;
+  margin-block: 1.4em;
+}
+.fam-hd {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 70px;
+  color: $dark_brown;
+}
+.fam-para {
+  @include fontFix;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-block: 3em;
+  color: $dark_brown;
+}
+.fam-btn:hover {
+  border: 3px solid $yellow;
+  color: $yellow !important;
+  background-color: white !important;
+}
+.arrows {
+  position: absolute;
+  left: 290px;
+  bottom: 30px;
+}
+@media (max-width: 768px) {
+  // .ourstory {
+  //   margin-inline: 5em;
+  // }
+  .arrows {
+    position: absolute;
+    left: 300px;
+    bottom: 17px;
+  }
+
+  .marvin {
+      width: 600px ;
+    margin-left: 0em;
+  }
+  .hearts {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .marvin {
+    width: 270px;
+    margin-left: -1em;
+    margin-block: 2em;
+  }
+  .hearts {
+    display: none;
+  }
+  .arrows {
+    display: none;
+  }
+  .fam-hd {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .know{
+    font-size: 26px;
+    line-height: 52px;    
+  }
+  .ourstory{
+      text-align: center;
+  }
+  .fam-para {
+  
+    font-size: 16px;
+    line-height: 22px;
+    margin-block: 3em;
+    color: $dark_brown;
+  }
+}

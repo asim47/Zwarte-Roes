@@ -1,0 +1,24 @@
+.img-line{
+    width: 100%;
+}
+.rain{
+    z-index: 19999;
+    position: absolute;
+margin-top: -20em;
+}
+.line-col{
+    height: 460px;
+}
+@media (max-width: 768px) {
+    .rain{
+        margin-top: -18em;
+        }
+
+}
+@media (max-width: 768px) {
+
+    .line-con{
+display: none;
+    }
+
+}

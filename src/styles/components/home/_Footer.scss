@@ -1,156 +1,111 @@
-.footerCon {
-  background-color: $yellow;
-  height: 580px;
-  width: 100%;
+.footer-con {
+  height: 79vh;
 }
-.ft-img {
-  width: 100% !important;
-  margin-top: 10px;
+
+.lis-row-ft {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2em;
 }
 .ft-li {
-  font-family: "Quicksand";
-  text-decoration: none !important;
   color: $white !important;
+  text-decoration: none !important;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 38px;
 }
-.socials {
-  margin-top: -20px !important;
+.lower-footer {
+  display: flex;
+  justify-content: space-between;
 }
-.endorsment {
-  color: $white;
-  width: 340px;
+.li-socials {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1em;
+}
+.ft-colu1 {
+  margin-left: 3em;
+}
+.logo-ft {
+  margin-left: 2em;
+}
+.happy-ft {
   text-align: center;
-  margin-left: -50px;
-  padding-block: 12px;
-
-  h4 {
-    font-family: "Permanent Marker", cursive;
-    line-height: 35px;
-    font-size: 24px;
-    letter-spacing: 0.05em;
-  }
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  margin-left: -2em;
+  padding-top: 20px;
+  color: $white;
 }
-
-.ft-img {
-  height: 390px;
-  width: 100% !important;
-  position: absolute;
-  left: 0;
-  margin-top: 81px !important;
-  z-index: 1000;
+.ft-ul {
+  list-style: none;
+  text-align: right;
 }
 .ft-links {
-  color: $white !important;
-  text-decoration: none !important;
-}
-.ft-ul li {
-  list-style-type: none;
   font-family: "Quicksand";
   font-style: normal;
-  font-weight: 600;
+  color: $yellow;
+  font-weight: 400;
   font-size: 20px;
-  text-align: right;
-  letter-spacing: 0.05em;
+  line-height: 30px;
 }
 .ft-links:hover {
-  text-decoration: underline !important;
-  cursor: pointer;
-  color: $yellow !important;
+  text-decoration: underline;
 }
-.rigt-ft-socials {
-  position: absolute;
-  right: 0;
+.rigt-ft-pays {
+  display: flex;
+  flex-direction: row;
 }
-
-@media (min-width: 1020px) {
-  .ft-ul li {
-    color: #f0bc1b !important;
-  }
-  .ft-ul {
-    margin-top: 100px !important;
-    padding-right: 70px;
-  }
-  .pays {
-    margin-top: 310px !important;
-    padding-right: 70px;
-  }
+.right-footer-info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-bottom: -2em;
+  margin-right: 2em;
 }
-@media (min-width: 768px) {
-  .pays {
-    margin-top: 230px;
-    padding-right: 30px;
-  }
-  .ft-ul li {
-    padding-right: 0px;
-    color: white;
-  }
-  .ft-ul {
-    margin-top: -30px;
-    padding-right: 40px;
-  }
-  .awl_socials {
-    margin-left: 30px !important;
-  }
-  .ft-nav-row {
-    display: flex;
-    justify-content: space-around;
-  }
+@media (max-width: 768px) {
   .ft-li {
-    letter-spacing: 0.05em;
-
-    font-size: 19px;
+    font-weight: 300;
+    font-size: 20px;
   }
-  .ft-lis {
-    margin-block: 40px;
+  .right-footer-info {
+    display: flex;
+    justify-items: center;
+    margin-top: 3em;
+    flex-direction: column;
+    margin-bottom: 0em;
+    margin-right: 1em;
+  }
+  .ft-ul {
+    margin-top: -2em;
+  }
+
+  .ft-colu1 {
+    margin-left: 0em;
+  }
+  .happy-ft {
+    width: 300px;
+    margin-left: 0.5em;
   }
 }
-
 @media (max-width: 320px) {
-  .footerCon {
-    height: 54em;
-  }
-  .ft-ul li {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-    color: white;
-  }
-
-  .ft-ul {
-    margin-top: 300px !important;
-    padding-right: 40px;
-  }
-  .pays {
-    display: flex;
-    margin-top: 580px;
-    justify-content: center;
-    width: 100%;
-    margin-right: 0px;
-  }
-  .ft-nav-row {
-    display: flex;
-    justify-content: center;
-  }
-  .endorsment h4 {
-    margin-left: 30px;
-  }
-
   .ft-li {
-    padding-inline: 10px;
+    color: $white !important;
+    text-decoration: none !important;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 38px;
   }
-  .ft-lis {
-    margin-block: 10px;
+  .happy-ft {
+    font-size: 20px;
+    margin-left: 0em;
+  padding-top: 0px;
+
   }
-  .hands-logo {
-    margin-left: 40px;
-  }
-  .socials {
-    margin-left: 25px;
-  }
-  .ft-img {
-    background-image: none !important;
-    width: 100% !important;
-    position: absolute;
-    left: 0;
-    margin-top: 91px !important;
+  .rigt-ft-pays{
+display: flex;
+justify-content: center;
   }
 }
