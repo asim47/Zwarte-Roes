@@ -1,0 +1,64 @@
+.change-wrap {
+  background-color: $yellow;
+  margin-block: 5em;
+  padding-block: 5em;
+}
+.change-hd {
+  color: $white;
+  font-size: 64px;
+  line-height: 110%;
+  margin-right: 3em;
+}
+.change-para {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-block: 2em;
+  padding-right: 10em;
+  color: $white;
+}
+.btn-change:hover {
+  border: 3px solid $white;
+  color: $white !important;
+  background-color: $yellow !important;
+}
+@media (max-width: 768px) {
+  .chnage-row {
+    text-align: center;
+  }
+  .change-hd {
+    font-size: 47px;
+    margin-right: 0em;
+    padding-top: 1em;
+  }
+  .change-para {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-block: 2em;
+    padding-right: 0em;
+    color: $white;
+  }
+}
+@media (max-width: 375px) {
+  .change-hd {
+    font-size: 44px;
+    line-height: 100%;
+    margin-right: 0em;
+    text-align: center;
+    padding-top: 1em;
+  }
+
+  .change-para {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    margin-block: 2em;
+    padding-right: 0em;
+    color: $white;
+  }
+  .btn-change {
+    margin-top: 1em !important;
+    margin-left: 2.5em !important;
+  }
+}

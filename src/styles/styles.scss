@@ -1,12 +1,17 @@
 
-
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
 @import "mixins/Mixins";
 @import "variables/Variables";
 
 
 @import "components/home/Home";
+@import "components/Product/Product";
+@import "components/Collection/Collection";
+h4{
+    font-family: 'Permanent Marker' !important;
 
+}
 
 // // for pc
 // @media(min-width:1020px){

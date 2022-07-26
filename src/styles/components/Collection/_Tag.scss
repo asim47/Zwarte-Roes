@@ -1,0 +1,55 @@
+.borderT {
+  border: 2px solid #29201d;
+  border-radius: 30px;
+  margin-inline: 3px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-block: 2em;
+}
+.borderT:hover {
+  background-color: $black;
+}
+.borderT span:hover {
+  color: $white;
+}
+.tagName {
+  font-family: "Quicksand";
+  text-transform: lowercase;
+  color: #29201d;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  padding-inline: 20px;
+  padding-block: 0.5em;
+}
+.selc-options {
+  border: none;
+}
+.region {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  padding-inline: 2em;
+}
+.opt {
+  color: #29201d;
+}
+.selc-wrap {
+  margin-left: 30px;
+}
+@media (max-width: 768px) {
+  .selc-wrap {
+    margin-left: 0px;
+margin-block: 2em;
+  }
+
+  .tags-wrap,
+  .selc-wrap {
+    display: flex;
+    justify-content: center;
+  }
+}
