@@ -4,7 +4,7 @@ import leftpattern from "../../assests/icons/leftpattern.png";
 import { light_blue, yellow, orange } from "../../constants/index";
 import { white } from "../../constants/index";
 import { Button } from "@mui/material";
-const Decaf = () => {
+const Decaf = (props) => {
   return (
     <>
       <div className="Decaf-wrap">
@@ -43,7 +43,7 @@ SHOP DECAF
             </div>
           </div>
         </div>
-        <img className="lf-decaf" src={leftpattern} alt="" />
+        <img className={props.lineNone || "lf-decaf"} src={leftpattern} alt="" />
       </div>
     </>
   );

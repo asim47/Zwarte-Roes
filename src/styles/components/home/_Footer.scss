@@ -1,5 +1,6 @@
 .footer-con {
   height: 79vh;
+  background-repeat: no-repeat;
 }
 
 .lis-row-ft {
@@ -11,8 +12,9 @@
   color: $white !important;
   text-decoration: none !important;
   font-weight: 300;
-  font-size: 25px;
+  font-size: 19px;
   line-height: 38px;
+  cursor: pointer;
 }
 .lower-footer {
   display: flex;
@@ -70,13 +72,19 @@
     font-weight: 300;
     font-size: 20px;
   }
+  .ft-links {
+    color: white;
+  }
   .right-footer-info {
-    display: flex;
-    justify-items: center;
-    margin-top: 3em;
-    flex-direction: column;
-    margin-bottom: 0em;
+    
+position: absolute;
+margin-top: 13em;
     margin-right: 1em;
+  }
+  .footer-con {
+    height: auto;
+    background-color: $yellow;
+    background-image: none !important;
   }
   .ft-ul {
     margin-top: -2em;
@@ -90,7 +98,12 @@
     margin-left: 0.5em;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
+  .footer-con {
+    height: auto;
+    background-color: $yellow;
+    background-image: none !important;
+  }
   .ft-li {
     color: $white !important;
     text-decoration: none !important;
@@ -101,11 +114,24 @@
   .happy-ft {
     font-size: 20px;
     margin-left: 0em;
-  padding-top: 0px;
-
+    padding-top: 0px;
   }
-  .rigt-ft-pays{
-display: flex;
-justify-content: center;
+  .rigt-ft-pays {
+    display: flex;
+    justify-content: center;
+    margin-block: 1em;
+  }
+  .right-footer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0em;
+    margin-top: 3em;
+    margin-right: 2em;
+  }
+  .ft-ul {
+    list-style: none;
+    text-align: center;
   }
 }

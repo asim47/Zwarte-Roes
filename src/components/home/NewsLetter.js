@@ -23,6 +23,7 @@ const NewsLetter = () => {
               <div className="input-group input-order">
                 <input
                   type="text"
+                  style={{border:'3px solid #DA642A'}}
                   className="form-control "
                   aria-label="Username"
                   aria-describedby="basic-addon1"

@@ -20,7 +20,7 @@ const SingleOrigin = () => {
                 cupidatat non.
               </h5>
               <Button
-                className="origin-btn"
+                className="`origin-btn`"
                 style={{
                   backgroundColor: white,
                   textAlign: "center",

@@ -33,7 +33,7 @@
     display: none;
 }
 }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
     .gify-info{
 margin-bottom: 2em;
     }
@@ -48,4 +48,34 @@ margin-bottom: 2em;
   .line-1{
       display: none;
   }
+}
+/// Product Delivvery scss
+.delver-wrap-2{
+  background-color: $orange;
+min-height: 300px;
+margin-block: 140px;
+}
+.gift-i2, .line2{
+  margin-top: 2em;
+}
+.d-info1{
+margin-top: 3em;
+}
+.gd-2{
+  color: $white;
+}
+.del-pat-2{
+  position: absolute;
+  right: 0;
+margin-top: -5em;
+}
+@media (max-width: 375px) {
+
+  .del-pat-2{
+display: none;
+  }
+  .delver-wrap-2{
+padding-block: 10px;
+  }
+
 }

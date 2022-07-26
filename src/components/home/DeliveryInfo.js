@@ -6,7 +6,7 @@ import line from "../../assests/icons/line2.png";
 const DeliveryInfo = () => {
   return (
     <>
-      <div className="container-fluid">
+      <div className="container-fluid" >
         <div className="d-flex row justify-content-center gift-wrap">
           <div class="col-lg-4 col-md-8 col-10 gify-info text-center ">
             <img className="g-img" src={gift} alt="" />

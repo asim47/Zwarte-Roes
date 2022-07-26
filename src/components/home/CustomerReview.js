@@ -19,7 +19,7 @@ const CustomerReview = () => {
     pauseOnHover: false,
   };
   const sliderRef = useRef(null);
-  console.log(sliderRef);
+
   return (
     <>
       <div className="review-wrap">

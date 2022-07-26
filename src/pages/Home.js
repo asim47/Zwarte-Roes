@@ -25,24 +25,23 @@ const Home = (props) => {
     <>
       <Navbar />
       <AnnouncementBar />
-      <HeroComponent/>
-      <Featured/>
-      <TheyMatter/>
-      <CustomerReview/>
-      <CoffeeGuarantee/>
-      <DeliveryInfo/>
-      <Blends/>
-      <RoastFilter/>
-      <SingleOrigin/>
-      <Decaf/>
-      <CoffeGear/>
-      <CoffeeSet/>
-      <FamilyBussines/>
-      <LineCom/>
-      <Announcement/>
-      <NewsLetter/>
-
-<Footer/>
+      <HeroComponent />
+      <Featured />
+      <TheyMatter />
+      <CustomerReview />
+      <CoffeeGuarantee />
+      <DeliveryInfo />
+      <Blends />
+      <RoastFilter />
+      <SingleOrigin />
+      <Decaf />
+      <CoffeGear />
+      <CoffeeSet />
+      <FamilyBussines />
+      <LineCom />
+      <Announcement />
+      <NewsLetter />
+      <Footer />
     </>
   );
 };

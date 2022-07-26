@@ -2,6 +2,7 @@ import React from "react";
 import setcoffe from "../../assests/images/setcoffe.png";
 import { Button } from "@mui/material";
 import { $dark_brown, dark_brown, white } from "../../constants/index";
+import arrow1 from "../../assests/icons/arrow1.png"
 const CoffeeSet = () => {
   return (
     <>
@@ -34,6 +35,7 @@ const CoffeeSet = () => {
                 >
                   SHOP SETS
                 </Button>
+                <img src={arrow1} className="arrow2" alt="" />
               </div>
             </div>
           </div>

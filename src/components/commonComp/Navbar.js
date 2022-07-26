@@ -35,7 +35,7 @@ const Navbar = () => {
         >
           <Nav className="skola_cutom_nav me-auto mr-4 " navbar>
             <NavItem className="roes_li">
-              <NavLink className="roes_item" href="/">
+              <NavLink className="roes_item" href="/product">
                 Shop
               </NavLink>
             </NavItem>
@@ -45,7 +45,7 @@ const Navbar = () => {
               </NavLink>
             </NavItem>
             <NavItem className="roes_li">
-              <NavLink className="roes_item" href="/coursedetails">
+              <NavLink className="roes_item" href="/collection">
                 ZAKELIJK
               </NavLink>
             </NavItem>

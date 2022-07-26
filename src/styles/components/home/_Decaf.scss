@@ -45,7 +45,7 @@ margin-top: -8em;
         }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .decaf-heading {
     font-size: 27px;
     line-height: 40px;
@@ -67,4 +67,7 @@ margin-top: -8em;
 .lf-decaf{
     display: none;
          }
+}
+.lineNone{
+  display: none;
 }

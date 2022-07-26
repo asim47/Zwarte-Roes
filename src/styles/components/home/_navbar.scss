@@ -24,7 +24,7 @@
     margin: auto;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .roes_li {
     margin: auto;
     padding-left: 22px !important;
@@ -36,6 +36,6 @@
     padding-inline: 40px;
   }
   .roes_logo {
-    margin-left: -20px;
+    margin-left: 0px;
   }
 }

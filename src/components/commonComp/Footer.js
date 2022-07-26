@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="row lower-footer">
-            <div className="col-lg-3 ft-colu1">
+            <div className="col-lg-3 col-12 ft-colu1">
               <img className="logo-ft" src={logomain} alt="" />
               <div className="li-socials">
                 <div>
@@ -70,7 +70,7 @@ const Footer = () => {
                 <li className="ft-links">Algemene Voorwaarden</li>
                 <li className="ft-links">Verzend- en retourbeleid</li>
               </ul>
-              <div className="  pays rigt-ft-pays ">
+              <div className=" row pays rigt-ft-pays ">
                 <div className="">
                   {" "}
                   <img src={Ideal} />

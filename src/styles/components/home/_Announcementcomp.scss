@@ -53,7 +53,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
 
     .order-bg {
         background-color: $light_blue;
@@ -73,7 +73,7 @@
         padding-inline: 10px;
       }
       .order-img {
-        width: 320px;
+        width: 200px !important;
         object-fit: cover;
         height: 350px;
       }

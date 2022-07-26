@@ -46,12 +46,17 @@
     right: 0em !important;
     margin-top: 45em;
   }
-}
-@media (max-width: 320px) {
   .thymt-img {
-    width: 296px;
-    height: 296px;
+    width: 560px;
+    height: 496px;
     margin-left: 0em;
+  }
+}
+@media (max-width: 375px) {
+  .thymt-img {
+    width: 340px;
+    height: 296px;
+    margin-left: .2em;
   }
 
   .goldPattern {

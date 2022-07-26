@@ -32,11 +32,7 @@
   background-color: white !important;
 }
 @media (max-width: 1020px) {
-
-  .hero-heading {
-    width: 10em;
   
-  }
 }
 @media (max-width: 768px) {
   .hero-hd {
@@ -65,7 +61,7 @@
     //   height: 2em !important;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .hero_con {
     opacity: 0.7;
   }
@@ -75,10 +71,12 @@
 
   }
   .hero-heading {
-    font-size: 25px;
+    font-size: 20px;
     margin-block: 0em;
     text-align: center;
-    margin-left: 1em;
+    margin-left: 2em;
+
+
   }
   .heropara {
     font-family: "Quicksand";
