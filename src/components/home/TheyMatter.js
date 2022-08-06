@@ -13,7 +13,7 @@ const TheyMatter = () => {
           <div className="col-lg-6 col-md-10  ">
             <img src={theymatter} alt="" className="thymt-img" />
           </div>
-          <div className="col-lg-6 col-md-8 col-12">
+          <div className="col-lg-6 col-md-8 col-10">
             <h4 className="matter-heading">
               START GIVING A SH*T AND DRINK GOOD COFFEE
             </h4>

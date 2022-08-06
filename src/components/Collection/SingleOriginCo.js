@@ -8,12 +8,16 @@ import CORNERTAGNEW from "../../assests/icons/CORNERTAGNEW.png";
 import redline from "../../assests/icons/redline.png";
 import { yellow, white, orange } from "../../constants/index";
 import { FiChevronRight } from "react-icons/fi";
+import underline from "../../assests/icons/underline.png";
+
 const SingleOriginCo = () => {
   return (
     <>
       <div className="container-fluid">
         <div className="tag-heading">
           <h4 className="so-hd">SINGLE ORIGIN</h4>
+          <img src={underline} style={{paddingBottom:"2em"}} className="colec-underline" alt="" />
+
           <h6 className="so-para">
             Onze vers gebrande koffiebonen worden zorgvuldig geselecteerd,
             gebrand op bestelling en verpakt met liefde. Zo maken wij

@@ -22,6 +22,8 @@ const Blends = () => {
                 enim ad minim veniam quis.
               </h5>
               <Button
+              href="/collection"
+
                 className="blend-hero"
                 style={{
                   backgroundColor: white,

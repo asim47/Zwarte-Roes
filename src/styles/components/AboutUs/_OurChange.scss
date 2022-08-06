@@ -1,0 +1,15 @@
+.bg-change{
+    background-color: $orange;
+}
+@media (max-width: 768px) {
+    .img-change{
+        margin-top: 3em;
+    }
+
+}
+@media (max-width: 375px) {
+    .img-change{
+        margin-top: 3em;
+    }
+
+}

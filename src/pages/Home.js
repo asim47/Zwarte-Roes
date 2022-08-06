@@ -19,8 +19,10 @@ import FamilyBussines from "../components/home/FamilyBussines";
 import LineCom from "../components/home/LineCom";
 import Announcement from "../components/home/Announcement";
 import NewsLetter from "../components/home/NewsLetter";
+import { TabTitle } from "./PageTitle";
 
 const Home = (props) => {
+  TabTitle('Home | Zwarte Roes')
   return (
     <>
       <Navbar />

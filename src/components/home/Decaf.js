@@ -34,8 +34,9 @@ const Decaf = (props) => {
                   lineHeight: "35px",
                   boxShadow: "0px 15px 10px -9px #909090",
                 }}
+                href="/collection"
               >
-SHOP DECAF
+                SHOP DECAF
               </Button>
             </div>
             <div className="col-lg-5 col-5 decaf-img">
@@ -43,7 +44,11 @@ SHOP DECAF
             </div>
           </div>
         </div>
-        <img className={props.lineNone || "lf-decaf"} src={leftpattern} alt="" />
+        <img
+          className={props.lineNone || "lf-decaf"}
+          src={leftpattern}
+          alt=""
+        />
       </div>
     </>
   );

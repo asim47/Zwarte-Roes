@@ -46,13 +46,13 @@ margin-top: -8em;
 }
 
 @media (max-width: 375px) {
+  .img-roast{
+    width: 340px;
+    margin-left: 0em;
+  }
   .decaf-heading {
     font-size: 27px;
-    line-height: 40px;
-
-    letter-spacing: -0.02em;
     margin-top: 2em;
-    color: #29201d;
   }
   .decaf-info {
     margin-left: 1em;
@@ -67,7 +67,7 @@ margin-top: -8em;
 .lf-decaf{
     display: none;
          }
-}
-.lineNone{
-  display: none;
+         .lineNone{
+           display: none;
+         }
 }

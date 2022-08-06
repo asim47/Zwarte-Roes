@@ -101,6 +101,9 @@
   margin-left: 1.7em;
 }
 @media (min-width: 1020px) {
+  .slider-home{
+    width: 560px !important;
+  }
   .reviw-heading {
     padding-left: 1.5em;
     margin-top: 2.4em;
@@ -152,17 +155,17 @@
     background-color: $white;
     border-radius: 27px;
     margin-top: 3em;
-    margin-left: 8.4em;
+    margin-left: 9em;
     margin-block: 2em;
   }
   .rightarrows {
-    margin-left: 3em;
+    margin-left: 4em;
     top: 8em;
     position: absolute;
     padding-bottom: 1em;
   }
   .leftarrow {
-    margin-left: 16em;
+    margin-left: 17em;
     top: 8em;
     position: absolute;
   }
@@ -174,5 +177,17 @@
   }
   .reviw-dialog {
     margin-inline: 1em;
+  }
+  .slider-card {
+    width: 340px;
+
+    margin-left: 0em;
+  }
+  .tab-slide{
+    width: 60% !important;
+  }
+
+  .slider-home{
+    width: 350px !important;
   }
 }

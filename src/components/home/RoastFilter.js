@@ -17,6 +17,8 @@ const RoastFilter = () => {
                 enim ad minim veniam quis nostrud.
               </h5>
               <Button
+              href="/collection"
+
                 className="roast-btn"
                 style={{
                   backgroundColor: white,

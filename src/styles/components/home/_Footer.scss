@@ -67,6 +67,10 @@
   margin-bottom: -2em;
   margin-right: 2em;
 }
+.pays{
+  gap: 10px;
+  display: flex;
+}
 @media (max-width: 768px) {
   .ft-li {
     font-weight: 300;
@@ -98,9 +102,27 @@ margin-top: 13em;
     margin-left: 0.5em;
   }
 }
+@media (max-width: 768px) {
+
+  .footer-con {
+    height: 100vh;
+  }
+  .rigt-ft-pays {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3em;
+
+  }
+  .right-footer-info {
+margin-top: 15.5em;
+
+
+  }
+}
 @media (max-width: 375px) {
   .footer-con {
-    height: auto;
+    height: 140vh;
     background-color: $yellow;
     background-image: none !important;
   }
@@ -113,13 +135,14 @@ margin-top: 13em;
   }
   .happy-ft {
     font-size: 20px;
-    margin-left: 0em;
+    margin-left: 1em;
     padding-top: 0px;
   }
   .rigt-ft-pays {
     display: flex;
     justify-content: center;
-    margin-block: 1em;
+    margin-top: 3em;
+
   }
   .right-footer-info {
     display: flex;
@@ -127,11 +150,18 @@ margin-top: 13em;
     align-items: center;
     flex-direction: column;
     margin-bottom: 0em;
-    margin-top: 3em;
+margin-top: 29em;
     margin-right: 2em;
   }
   .ft-ul {
     list-style: none;
     text-align: center;
   }
+  .logo-ft{
+    margin-left: 3.5em;
+  }
+  .li-socials{
+    margin-left: 3.2em;
+  }
+
 }

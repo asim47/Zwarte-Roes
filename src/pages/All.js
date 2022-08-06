@@ -9,8 +9,11 @@ import CustomerReviewCo from '../components/Collection/CutomerReviewsCo'
 import CoffeGear from '../components/home/CoffeGear'
 import NewsLetter from '../components/home/NewsLetter'
 import Footer from '../components/commonComp/Footer'
-
+import  { TabTitle } from "./PageTitle"
+import CoffeGear2 from '../components/Collection/CoffeGear2'
 const All = () => {
+
+    TabTitle('All Categories | Zwarte Roes')
   return (
 <>
 
@@ -21,7 +24,7 @@ const All = () => {
 <ChooseUs/>
 <OurKit/>
 <CustomerReviewCo/>
-<CoffeGear/>
+<CoffeGear2/>
 <NewsLetter/>
 <Footer/>
 </>

@@ -8,6 +8,8 @@ const Home = lazy(() => import("./pages/Home"))
 const Product = lazy(() => import("./pages/Product"))
 const Collection = lazy(() => import("./pages/Collection"))
 const All = lazy(() => import("./pages/All"))
+const SingleProduct = lazy(() => import("./pages/SingleProduct"))
+const AboutUs = lazy(() => import("./pages/AboutUs"))
 
 
 const App = (props) => {
@@ -21,6 +23,8 @@ const App = (props) => {
                 <Route path="product" element={<Product/>} />
                 <Route path="collection" element={<Collection/>} />
                 <Route path="all" element={<All/>} />
+                <Route path="SingleProduct" element={<SingleProduct/>} />
+                <Route path="aboutus" element={<AboutUs/>} />
             </Routes>
         </Suspense>
     )

@@ -65,16 +65,20 @@
         text-align: center;
       }
     .order-hd {
-        font-style: normal;
-        font-weight: 400;
         font-size: 30px;
-        line-height: 35px;
         margin-block: 1em;
         padding-inline: 10px;
       }
       .order-img {
-        width: 200px !important;
+        width: 375px !important;
         object-fit: cover;
         height: 350px;
+      }
+      .orderpara {
+        
+        padding-inline: 2em;
+        line-height: 22px;
+        margin-top: 2em;
+        margin-bottom: 5em;
       }
 }

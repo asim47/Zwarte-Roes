@@ -8,7 +8,6 @@
   font-size: 64px;
   margin-block: 1em;
   width: 10em;
-
 }
 .heropara {
   font-family: "Quicksand";
@@ -24,7 +23,7 @@
 .hero-hd {
   margin-top: -50em;
   margin-left: 4em;
-  position: absolute
+  position: absolute;
 }
 .btn-hero:hover {
   border: 3px solid $yellow;
@@ -32,7 +31,6 @@
   background-color: white !important;
 }
 @media (max-width: 1020px) {
-  
 }
 @media (max-width: 768px) {
   .hero-hd {
@@ -68,31 +66,27 @@
   .hero-hd {
     margin-top: -10em;
     margin-left: 0em;
-
   }
   .hero-heading {
+  width: 15em;
+
     font-size: 20px;
     margin-block: 0em;
     text-align: center;
-    margin-left: 2em;
-
-
+    margin-left: 1em;
   }
   .heropara {
-    font-family: "Quicksand";
-    font-style: normal;
-    font-weight: 100;
-    font-size: 13px;
+
+    font-size: 15px;
     line-height: 15px;
-    letter-spacing: 0em;
     color: #29201d;
     margin-block: 1em;
     text-align: center;
     width: 20em;
-    margin-left: 10px;
+    margin-left: 25px;
   }
   .btn-hero {
     font-size: 14px !important;
-    margin-left: 6.2em !important;
+    margin-left: 8.5em !important;
   }
 }

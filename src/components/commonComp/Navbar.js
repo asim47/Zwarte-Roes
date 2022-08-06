@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+
 import {
   NavbarToggler,
   Collapse,
@@ -13,7 +14,18 @@ import nav1 from "../../assests/icons/nav1.png";
 import nav2 from "../../assests/icons/nav2.png";
 import nav3 from "../../assests/icons/nav3.png";
 const Navbar = () => {
+
+  const [shopTitle, setshopTitle] = useState('');
+  const [home, sethome] = useState('');
   const [IsCollapseOpen, setIsCollapseOpen] = useState(false);
+
+//   useEffect(() => {
+//     document.title = 'Product Categories | Zwarte Roes';
+//   }, []);
+
+//   const changeTitle = () => {
+// setshopTitle(shopTitle)
+//   };
   return (
     <div className="container-fluid roes_navcon">
       <Navbaar light className="skola_nav" expand="lg">
@@ -34,7 +46,7 @@ const Navbar = () => {
           className="justify-content-end"
         >
           <Nav className="skola_cutom_nav me-auto mr-4 " navbar>
-            <NavItem className="roes_li">
+            <NavItem  className="roes_li">
               <NavLink className="roes_item" href="/product">
                 Shop
               </NavLink>

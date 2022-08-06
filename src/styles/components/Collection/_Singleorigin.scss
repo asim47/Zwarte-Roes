@@ -139,6 +139,9 @@
   width: 100%;
 }
 @media (max-width: 768px) {
+  .colec-underline{
+    width: 500px !important;
+  }
   .so-hd {
     text-align: center;
   }
@@ -159,5 +162,8 @@
     height: 200px;
     margin-left: 0em;
     margin-top: -1em;
+  }
+  .colec-underline{
+    width: 300px !important;
   }
 }

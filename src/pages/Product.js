@@ -13,8 +13,10 @@ import Change from "../components/ProductCategories/Change";
 import DeliveryInfo2 from "../components/ProductCategories/DeliveryInfo2";
 import Options from "../components/ProductCategories/Options";
 import ProHero from "../components/ProductCategories/ProHero";
+import { TabTitle } from "./PageTitle";
 
 const Product = () => {
+  TabTitle("Product Categories | Zwarte Roes")
   return (
     <>
       <Navbar />

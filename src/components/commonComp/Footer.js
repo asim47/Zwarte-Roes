@@ -1,7 +1,7 @@
 import { Box, Grid } from "@mui/material";
 import React from "react";
 import { Link } from "@mui/material";
-import yelowbgoverlay from "../../assests/images/yelowbg-overlay.png";
+import yelowbgoverlay from "../../assests/images/yelowbg-overlay 1.png";
 import logomain from "../../assests/icons/logomain.png";
 import youtube from "../../assests/icons/youtube.png";
 import facebook from "../../assests/icons/facebook.png";
@@ -71,32 +71,32 @@ const Footer = () => {
                 <li className="ft-links">Verzend- en retourbeleid</li>
               </ul>
               <div className=" row pays rigt-ft-pays ">
-                <div className="">
+                <div className="col-lg-1 col-2">
                   {" "}
                   <img src={Ideal} />
                 </div>
-                <div className="">
+                <div className="col-lg-1 col-2">
                   <img src={Visa} />
                 </div>
-                <div className="">
+                <div className=" col-lg-1 col-2">
                   <img src={ApplePay} />
                 </div>
-                <div className="">
+                <div className=" col-lg-1 col-2">
                   <img src={Mastercard} />
                 </div>
-                <div className="">
+                <div className="col-lg-1 col-2">
                   <img src={Maestro} />
                 </div>
-                <div className="">
+                <div className="col-lg-1 col-2">
                   <img src={GooglePay} />
                 </div>
-                <div className="">
+                <div className="col-lg-1 col-2">
                   <img src={Amex} />
                 </div>
-                <div className="">
+                <div className="col-lg-1 col-2">
                   <img src={PayPal} />
                 </div>
-                <div className="">
+                <div className="col-lg-1 col-2">
                   <img src={ShopPay} />
                 </div>
               </div>

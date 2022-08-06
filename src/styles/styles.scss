@@ -8,9 +8,20 @@
 @import "components/home/Home";
 @import "components/Product/Product";
 @import "components/Collection/Collection";
+@import "components/SingleProduct/SingleProduct";
+@import "components/AboutUs/AboutUs";
 h4{
     font-family: 'Permanent Marker' !important;
 
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    padding-right: 0px;
 }
 
 // // for pc

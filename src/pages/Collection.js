@@ -10,8 +10,12 @@ import Footer from "../components/commonComp/Footer";
 import Navbar from "../components/commonComp/Navbar";
 import CoffeeSet from "../components/home/CoffeeSet";
 import NewsLetter from "../components/home/NewsLetter";
+import { TabTitle } from "./PageTitle";
 
 const Collection = () => {
+
+TabTitle("Single Origin | Zwarte Roes")
+
   const [AllComp, setAllComp] = useState(false);
   const [Singleorigin, setSingleorigin] = useState(true);
   const AllHandler = () => {

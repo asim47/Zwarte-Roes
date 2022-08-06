@@ -1,0 +1,55 @@
+.gear-hd-ro {
+  font-weight: 400;
+  font-size: 48px;
+  margin-left: 1em;
+  padding-top: 2em;
+}
+.gear-wrap2 {
+  background-color: #29201d;
+  padding-block: 4em;
+  color: $white;
+}
+.gear-para-ro {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  padding-inline: 3em;
+  padding-block: 6em;
+}
+.btn-gear2 {
+  margin-left: 3em !important;
+}
+@media (max-width: 768px) {
+    .btn-gear2 {
+        margin-bottom: 2em !important;
+        margin-left: 12em !important;
+              }
+              .gear-hd-ro {
+                text-align: center;}
+                .gear-para-ro {
+                    text-align: center;
+                }
+}
+@media (max-width: 375px) {
+    .gear-hd-ro {
+        text-align: center;
+
+        font-size: 32px;
+        margin-left: 0em;
+        padding-top: 1em;
+      }
+      .gear-para-ro {
+
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        padding-inline: 0em;
+        padding-block: 6em;
+      }
+      .btn-gear2 {
+margin-bottom: 2em !important;
+margin-left: 2.5em !important;
+      }
+}

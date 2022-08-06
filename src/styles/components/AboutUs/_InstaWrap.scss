@@ -1,0 +1,48 @@
+@mixin fontinsta {
+  font-family: "Quicksand";
+  font-style: normal;
+  letter-spacing: 0.005em;
+
+  font-weight: 400;
+}
+.insta-wra {
+  text-align: center;
+}
+.insta-hd {
+  @include fontinsta;
+  font-size: 40px;
+  line-height: 50px;
+  padding-top: 3em;
+  text-align: center;
+}
+.insta-para {
+  text-align: center;
+  padding-top: 2em;
+  @include fontinsta;
+  font-size: 20px;
+  line-height: 25px;
+}
+.insta1 {
+  margin-inline: 1em;
+}
+.isnta-roll {
+  margin-block: 2em;
+}
+@media (max-width: 768px) {
+  .insta1 {
+    margin-block: 2em;
+  }
+  .insta-para {
+    padding-inline: 3em;
+  }
+}
+@media (max-width: 375px) {
+  .insta-para {
+    padding-inline: 0em;
+    margin-left: 5px;
+  }
+  .insta1,
+  .insta2 {
+    width: 340px;
+  }
+}

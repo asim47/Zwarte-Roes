@@ -8,17 +8,33 @@ import { yellow } from "../../constants/index";
 const CutomerReviewsCo = () => {
   const settings = {
     dots: true,
-
     infinite: true,
     arrows: false,
     speed: 1000,
     slidesToShow: 3,
-    // autoplay: true,
     autoplaySpeed: 3000,
     swipeToSlide: true,
     swipe: false,
     pauseOnHover: false,
-    slidesToScroll: 4,
+    slidesToScroll: 2,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: true
+        }
+      },
+    ]
 
   };
 
@@ -29,13 +45,12 @@ const CutomerReviewsCo = () => {
           <h4 className="cut-co">WHAT OTHER CUSTOMERS ARE SAYING...</h4>
         </div>
 
-        <div className="col-12">
+        <div className="col- ">
           <Slider
             className="slider-co"
-            style={{ width: "1370px" }}
             {...settings}
           >
-            <div className="card-co-wrap">
+            <div className="">
               <Card className="slider-co-card card-co">
                 <div className="row name-row mb-2">
                   <div className="col- d-flex justify-content-center  ">
@@ -73,7 +88,7 @@ const CutomerReviewsCo = () => {
                 </div>
               </Card>
             </div>
-            <div className="card-co-wrap">
+            <div className="">
               <Card className="slider-co-card card-co">
                 <div className="row name-row mb-2">
                   <div className="col- d-flex justify-content-center  ">
@@ -111,7 +126,7 @@ const CutomerReviewsCo = () => {
                 </div>
               </Card>
             </div>
-            <div className="card-co-wrap">
+            <div className="">
               <Card className="slider-co-card card-co">
                 <div className="row name-row mb-2">
                   <div className="col- d-flex justify-content-center  ">
@@ -149,7 +164,7 @@ const CutomerReviewsCo = () => {
                 </div>
               </Card>
             </div>
-            <div className="card-co-wrap">
+            <div className="">
               <Card className="slider-co-card card-co">
                 <div className="row name-row mb-2">
                   <div className="col- d-flex justify-content-center  ">
@@ -187,7 +202,7 @@ const CutomerReviewsCo = () => {
                 </div>
               </Card>
             </div>
-            <div className="card-co-wrap">
+            <div className="">
               <Card className="slider-co-card card-co">
                 <div className="row name-row mb-2">
                   <div className="col- d-flex justify-content-center  ">
@@ -225,7 +240,7 @@ const CutomerReviewsCo = () => {
                 </div>
               </Card>
             </div>
-            <div className="card-co-wrap">
+            <div className="">
               <Card className="slider-co-card card-co">
                 <div className="row name-row mb-2">
                   <div className="col- d-flex justify-content-center  ">

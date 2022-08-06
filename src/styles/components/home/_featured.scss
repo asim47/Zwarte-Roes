@@ -20,10 +20,7 @@
 .nh-logo{
 width: 17em;
 }
-.blu-img {
-    width: 110% !important;
-    margin-left: -1em;
-  }
+
 .ft-logos{
     width: 12em;
 
@@ -34,5 +31,9 @@ width: 17em;
   }
   .ft-row{
 margin-top: 3em;
+  }
+  .blu-img {
+display: none;
+    margin-left: -1em;
   }
 }

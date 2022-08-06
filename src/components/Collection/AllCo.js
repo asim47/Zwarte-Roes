@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Button } from "@mui/material";
 import product from "../../assests/images/product.png";
 import Stars from "../../assests/icons/Stars.png";
@@ -8,15 +8,22 @@ import CORNERTAGNEW from "../../assests/icons/CORNERTAGNEW.png";
 import CORNERTAGSALE from "../../assests/icons/CORNERTAGSALE.png";
 import redline from "../../assests/icons/redline.png";
 import { yellow, white, orange } from "../../constants/index";
+import underline from "../../assests/icons/underline.png";
 
 import { FiChevronRight } from "react-icons/fi";
 const AllCo = () => {
   return (
-<>
-
-<div className="container-fluid">
+    <>
+      <div className="container-fluid">
         <div className="tag-heading">
           <h4 className="so-hd">ALLE KOFFIEBONEN</h4>
+          <img
+            src={underline}
+            style={{ paddingBottom: "2em" }}
+            className="colec-underline"
+            alt=""
+          />
+
           <h6 className="so-para">
             Onze vers gebrande koffiebonen worden zorgvuldig geselecteerd,
             gebrand op bestelling en verpakt met liefde. Zo maken wij
@@ -91,7 +98,10 @@ const AllCo = () => {
                 height: "384px",
                 width: "300px",
               }}
-            >  <img className="org-tag" src={CORNERTAGSALE} alt="" /></div>
+            >
+              {" "}
+              <img className="org-tag" src={CORNERTAGSALE} alt="" />
+            </div>
             <h6 className="coffeNam">ETHIOPIA SIDAMO</h6>
             <h3 className="liltags">chocolate • floral • citrus</h3>
 
@@ -306,8 +316,9 @@ const AllCo = () => {
             NEXT CATEGORY
           </Button>
         </div>
-      </div></>
-  )
-}
+      </div>
+    </>
+  );
+};
 
-export default AllCo
+export default AllCo;

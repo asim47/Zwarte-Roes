@@ -1,0 +1,18 @@
+.aboutheader {
+  width: 100%;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (max-width: 375px) {
+  .aboutheader {
+height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .aboutheader {
+    width: 100%;
+    height: 50vh;
+background-image: url("../../../assests//images/intro1.png");
+  }
+}

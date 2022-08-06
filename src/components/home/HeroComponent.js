@@ -18,6 +18,8 @@ const HeroComponent = () => {
               online bestellen veilig, makkelijk en snel.
             </h5>
             <Button
+              href="/product"
+
               className="btn-hero"
               style={{
                 backgroundColor: yellow,

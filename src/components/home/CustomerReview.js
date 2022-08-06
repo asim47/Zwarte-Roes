@@ -6,8 +6,7 @@ import rightarrow from "../../assests/icons/rightarrow.png";
 import leftarrow from "../../assests/icons/leftarrow.png";
 import { yellow } from "../../constants/index";
 const CustomerReview = () => {
-  const settings = {
-    dots: false,
+  const home = {
     infinite: true,
     arrows: false,
     speed: 1000,
@@ -17,15 +16,35 @@ const CustomerReview = () => {
     swipeToSlide: false,
     swipe: false,
     pauseOnHover: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 375,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+    ],
   };
   const sliderRef = useRef(null);
 
   return (
     <>
-      <div className="review-wrap">
+      <div className="review-wrap container-fluid">
         {" "}
         <div className="row d-flex justify-content-center ">
-          <div className="col-lg-6  ">
+          <div className=" col-lg-6 col- ">
             <h4 className="reviw-heading">WHAT OUR CUSTOMERS ARE SAYING...</h4>
             <div
               className="rightarrows"
@@ -42,7 +61,12 @@ const CustomerReview = () => {
             </div>
           </div>
           <div className="col- ">
-            <Slider  ref={sliderRef} {...settings} style={{ width: "560px", overflow:"hidden" }}>
+            <Slider
+              ref={sliderRef}
+              {...home}
+              className="slider-home"
+              style={{ overflow: "hidden" }}
+            >
               <div>
                 <Card className="slider-card">
                   <div className="row name-row mb-2">
@@ -67,7 +91,7 @@ const CustomerReview = () => {
                   <div className=" d-flex justify-content-center  my-3 ">
                     <span className="coffe-name">Heerlijke koffie</span>
                   </div>
-                  <div className=" d-flex justify-content-center  my-lg-3  reviw-dialog">
+                  <div className=" d-flex justify-content-center  my-3 reviw-dialog">
                     <p>
                       Goeie snelle levering met leuk persoonlijk kaartje. Kan ik
                       waarderen. Nog lekker ook, ben er nog niet uit wat de favo
@@ -82,7 +106,7 @@ const CustomerReview = () => {
                 </Card>
               </div>
               <div>
-                <Card className="slider-card">
+                <Card className="slider-card ">
                   <div className="row name-row mb-2">
                     <div className="col- d-flex justify-content-center  ">
                       <div className="j-avatar">

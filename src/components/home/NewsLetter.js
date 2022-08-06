@@ -7,6 +7,7 @@ import {
   orange,
   dark_brown,
 } from "../../constants/index";
+import backtotop from "../../assests/icons/backtotop.png"
 const NewsLetter = () => {
   return (
     <>
@@ -24,7 +25,7 @@ const NewsLetter = () => {
                 <input
                   type="text"
                   style={{border:'3px solid #DA642A'}}
-                  className="form-control "
+                  className="form-control news-input "
                   aria-label="Username"
                   aria-describedby="basic-addon1"
                 />
@@ -49,6 +50,12 @@ const NewsLetter = () => {
 SUBSCRIBE
               </Button>
             </div>
+          </div>
+          <div className="btt">
+            <img src={backtotop} alt="" />
+            <h6>BACK TO THE TOP
+
+            </h6>
           </div>
         </div>
       </div>
