@@ -1,0 +1,90 @@
+.thymt-img {
+  width: 496px;
+  height: 496px;
+  margin-left: 4em;
+}
+.matter-heading {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 52px;
+  color: #29201d;
+  width: 15em;
+  margin-block: 1em;
+}
+.matterpara {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.005em;
+  margin-block: 3em;
+  width: 26em;
+  color: #29201d;
+}
+
+.gld-img-wrap {
+  position: absolute;
+  right: 0em !important;
+  margin-top: 19em;
+}
+.btn-matter:hover {
+  border: 3px solid $light-blue;
+  color: $light-blue !important;
+  background-color: white !important;
+}
+@media (min-width: 1020px) {
+  .matter-wrap {
+    margin-bottom: 9em;
+  }
+}
+@media (max-width: 768px) {
+  
+.matter-wrap{
+  margin-block: 2.5em;
+}
+  .gld-img-wrap {
+    position: absolute;
+    right: 0em !important;
+    margin-top: 45em;
+  }
+  .thymt-img {
+    width: 560px;
+    height: 496px;
+    margin-left: 0em;
+  }
+}
+@media (max-width: 375px) {
+  .thymt-img {
+    width: 340px;
+    height: 296px;
+    margin-left: .2em;
+  }
+
+  .goldPattern {
+    display: none;
+  }
+  .matter-heading {
+    font-weight: 400;
+    margin-left: 0.6em;
+    font-size: 20px;
+    line-height: 30px;
+    width: 13em;
+    padding-top: 1em;
+    text-align: center;
+  }
+  .matterpara {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    margin-block: 2em;
+    width: 18em;
+    color: #29201d;
+  }
+  .btn-matter {
+    margin-left: 3.8em !important;
+    font-size: 16px !important;
+    width: 160px !important;
+    height: 50px !important;
+  }
+}

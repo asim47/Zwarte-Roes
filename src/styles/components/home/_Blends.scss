@@ -1,0 +1,49 @@
+.blends-wrap {
+  background-color: $light-blue;
+  padding-block: 5em;
+}
+.blend-row {
+  gap: 50px;
+}
+.blends-info {
+  color: $white;
+}
+.blend-heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 93px;
+  margin-block: 1em;
+}
+.blendpara {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  margin-block: 3em;
+  letter-spacing: 0.005em;
+}
+.blend-img {
+  margin-left: 7em;
+}
+.blend-hero:hover{
+
+  background-color: $light-blue !important;
+  border: 3px solid $white;
+  color: $white !important;
+}
+@media (max-width: 768px) {
+  .blends-info,
+  .blend-row {
+    text-align: center;
+  }
+}
+@media (max-width: 375px) {
+  .img-blends {
+    width: 260px;
+  }
+  .blend-img {
+    margin-left: 0em;
+  }
+}

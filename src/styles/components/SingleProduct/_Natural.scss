@@ -1,0 +1,74 @@
+.natural-wrap{
+    margin-top: 20em;
+}
+.cofe-img{
+    width: 600px !important;
+}
+.natural-row{
+    display: flex;
+margin-inline: 3em;
+    justify-content: space-around;
+}
+.nt-info{
+    background-color: $yellow;
+    width: 600px;
+    height: 750px;
+    color: $white;
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+
+}
+.nt-hd{
+    margin-left: 1.3em;
+    font-weight: 400;
+font-size: 48px;
+padding-bottom: 2em;
+}
+.nt-para{
+    padding-inline: 3em;
+    font-family: 'Quicksand';
+font-weight: 500;
+font-size: 20px;letter-spacing: 0.005em;
+
+}
+@media (max-width: 768px) {
+.info-col{
+margin-bottom: 3em;
+}
+.natural-wrap{
+    margin-top: 17em;
+}
+.nt-col{
+    margin-bottom: 3em;
+}
+
+
+}
+
+@media (max-width:375px) {
+    .natural-wrap{
+        margin-top: 7em;
+    }
+.nt-info{
+    width: 350px;
+    height: auto;
+    padding-block: 3em;
+}
+.nt-para{
+    padding-inline: 1em;
+font-size: 19px;
+
+}
+.cofe-img{
+    width: 350px !important;
+}
+.nt-hd{
+    margin-left: 1em;
+    font-weight: 400;
+font-size: 38px;
+padding-bottom: 2em;
+}
+
+}

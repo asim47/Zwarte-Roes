@@ -1,0 +1,39 @@
+.ft-con {
+  background-color: white;
+}
+
+.blu-img {
+  width: 102% !important;
+  margin-left: -1em;
+}
+.ft-name {
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+@media (max-width: 768px) {
+  .blu-img {
+    width: 104% !important;
+    margin-left: -1em;
+  }
+}
+@media (max-width: 375px) {
+.nh-logo{
+width: 17em;
+}
+
+.ft-logos{
+    width: 12em;
+
+}
+.ft-name {
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+  .ft-row{
+margin-top: 3em;
+  }
+  .blu-img {
+display: none;
+    margin-left: -1em;
+  }
+}

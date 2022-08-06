@@ -1,0 +1,169 @@
+@mixin fontFix {
+  font-family: "Quicksand";
+  font-style: normal;
+}
+.so-hd {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 0.005em;
+  text-transform: uppercase;
+  margin-block: 1em;
+}
+.tag-heading {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.so-para {
+  @include fontFix;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  padding-inline: 7em;
+}
+
+.coffe-card {
+  width: 379px !important;
+  height: auto;
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-block: 1em;
+  padding-bottom: 2.3em;
+}
+
+.coffeNam {
+  @include fontFix;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  padding-bottom: 1em;
+}
+.liltags {
+  @include fontFix;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+}
+.stars-row {
+  height: 18px;
+}
+.price {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.005em;
+  padding-block: 15px;
+}
+.cards-row {
+  margin-block: 5em;
+  margin-inline: 3em;
+  display: flex;
+  justify-content: space-evenly;
+  row-gap: 40px;
+}
+
+.pop-card {
+  width: 379px !important;
+  height: auto;
+  background: $yellow;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  padding-bottom: 2.3em;
+  color: $white;
+}
+.pop-hd {
+  color: $white;
+  padding-inline: 3em;
+  padding-top: 1em;
+  padding-bottom: 10px;
+  letter-spacing: 0.005em;
+  text-align: center;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 100%;
+}
+.tstars {
+  padding-block: 2em;
+}
+.r-name {
+  @include fontFix;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  padding-inline: 2em;
+  line-height: 25px;
+}
+.tgs {
+  @include fontFix;
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+}
+.price-2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+}
+.pop-btn {
+  margin-top: 3em !important;
+}
+.org-tag {
+  margin-left: -2.3em;
+  margin-top: -1em;
+}
+.cards-btn:hover {
+  background-color: $white !important;
+  color: $yellow !important;
+  border: 3px solid $yellow !important;
+}
+.pop-btn:hover {
+  background-color: $yellow !important;
+  color: $white !important;
+  border: 3px solid $white !important;
+}
+.next-cate:hover {
+  text-decoration: underline !important;
+}
+.redline-so {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .colec-underline{
+    width: 500px !important;
+  }
+  .so-hd {
+    text-align: center;
+  }
+  .pop-card {
+    width: 339px !important;
+  }
+  .so-para {
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.005em;
+    padding-inline: 0em;
+  }
+  .pop-hd {
+    padding-inline: 1em;
+  }
+  .org-tag {
+    height: 200px;
+    margin-left: 0em;
+    margin-top: -1em;
+  }
+  .colec-underline{
+    width: 300px !important;
+  }
+}

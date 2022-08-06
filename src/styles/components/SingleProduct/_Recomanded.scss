@@ -1,0 +1,70 @@
+@mixin fontFix {
+  font-family: "Quicksand";
+  font-style: normal;
+  letter-spacing: 0.005em;
+}
+
+.pill {
+  width: 170px;
+  background-color: $white;
+
+  border-radius: 50px;
+}
+.recom-hd {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  color: $white;
+  margin-top: 20px;
+  margin-left: 1em;
+}
+.recomd-row {
+  background-color: $light_blue;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.slider-card-recom {
+  background-color: #f0f0f0;
+  width: 430px;
+  height: auto;
+  border: none;
+  border-radius: none;
+  margin-block: 3em;
+  text-align: center;
+  padding-bottom: 2em;
+}
+.slider-col {
+  margin-left: 1em;
+  width: 1420px;
+}
+.recom-sli-hd {
+  @include fontFix;
+  color: #29201d;
+  font-weight: 600;
+  font-size: 18px;
+}
+.tags-recom {
+  font-weight: 400;
+  padding-top: 1em;
+  letter-spacing: 0.0545em;
+}
+.strs-recom {
+  width: 180px;
+}
+.price-re {
+  font-weight: 400;
+  font-size: 18px;
+  color: #29201d;
+}
+.rcom-btn {
+  margin-left: 7em !important;
+}
+.blue-line {
+  width: 1420px;
+margin-left: -13px;
+  margin-block: 3em;
+
+
+}

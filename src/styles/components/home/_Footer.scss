@@ -1,0 +1,167 @@
+.footer-con {
+  height: 79vh;
+  background-repeat: no-repeat;
+}
+
+.lis-row-ft {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2em;
+}
+.ft-li {
+  color: $white !important;
+  text-decoration: none !important;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 38px;
+  cursor: pointer;
+}
+.lower-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.li-socials {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1em;
+}
+.ft-colu1 {
+  margin-left: 3em;
+}
+.logo-ft {
+  margin-left: 2em;
+}
+.happy-ft {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  margin-left: -2em;
+  padding-top: 20px;
+  color: $white;
+}
+.ft-ul {
+  list-style: none;
+  text-align: right;
+}
+.ft-links {
+  font-family: "Quicksand";
+  font-style: normal;
+  color: $yellow;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.ft-links:hover {
+  text-decoration: underline;
+}
+.rigt-ft-pays {
+  display: flex;
+  flex-direction: row;
+}
+.right-footer-info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-bottom: -2em;
+  margin-right: 2em;
+}
+.pays{
+  gap: 10px;
+  display: flex;
+}
+@media (max-width: 768px) {
+  .ft-li {
+    font-weight: 300;
+    font-size: 20px;
+  }
+  .ft-links {
+    color: white;
+  }
+  .right-footer-info {
+    
+position: absolute;
+margin-top: 13em;
+    margin-right: 1em;
+  }
+  .footer-con {
+    height: auto;
+    background-color: $yellow;
+    background-image: none !important;
+  }
+  .ft-ul {
+    margin-top: -2em;
+  }
+
+  .ft-colu1 {
+    margin-left: 0em;
+  }
+  .happy-ft {
+    width: 300px;
+    margin-left: 0.5em;
+  }
+}
+@media (max-width: 768px) {
+
+  .footer-con {
+    height: 100vh;
+  }
+  .rigt-ft-pays {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3em;
+
+  }
+  .right-footer-info {
+margin-top: 15.5em;
+
+
+  }
+}
+@media (max-width: 375px) {
+  .footer-con {
+    height: 140vh;
+    background-color: $yellow;
+    background-image: none !important;
+  }
+  .ft-li {
+    color: $white !important;
+    text-decoration: none !important;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 38px;
+  }
+  .happy-ft {
+    font-size: 20px;
+    margin-left: 1em;
+    padding-top: 0px;
+  }
+  .rigt-ft-pays {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+
+  }
+  .right-footer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0em;
+margin-top: 29em;
+    margin-right: 2em;
+  }
+  .ft-ul {
+    list-style: none;
+    text-align: center;
+  }
+  .logo-ft{
+    margin-left: 3.5em;
+  }
+  .li-socials{
+    margin-left: 3.2em;
+  }
+
+}

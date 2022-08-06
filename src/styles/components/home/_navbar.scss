@@ -1,0 +1,41 @@
+.roes_navcon {
+  background-color: $yellow;
+}
+.roes_li {
+  text-transform: uppercase;
+}
+.roes_item {
+  color: $white !important;
+  font-size: 19px;
+}
+
+// // for pc
+@media (min-width: 1020px) {
+  .roes_item {
+    margin-top: 5px;
+    margin-right: 15px;
+  }
+  .roes_li {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .roes_li {
+    margin: auto;
+  }
+}
+@media (max-width: 375px) {
+  .roes_li {
+    margin: auto;
+    padding-left: 22px !important;
+  }
+  .collapser {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding-inline: 40px;
+  }
+  .roes_logo {
+    margin-left: 0px;
+  }
+}

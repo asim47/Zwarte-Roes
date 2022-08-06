@@ -1,12 +1,28 @@
 
-
-
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
 @import "mixins/Mixins";
 @import "variables/Variables";
 
 
 @import "components/home/Home";
+@import "components/Product/Product";
+@import "components/Collection/Collection";
+@import "components/SingleProduct/SingleProduct";
+@import "components/AboutUs/AboutUs";
+h4{
+    font-family: 'Permanent Marker' !important;
 
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    padding-right: 0px;
+}
 
 // // for pc
 // @media(min-width:1020px){

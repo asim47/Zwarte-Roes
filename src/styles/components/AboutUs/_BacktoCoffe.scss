@@ -1,0 +1,18 @@
+.back-wrap{
+    background-color: $yellow;
+    color: $white;
+    padding-block: 3em;
+}
+.back-btn:hover{
+    color: $white !important;
+    border: 3px solid white !important;
+background-color:$yellow !important ;
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 375px) {
+.back-btn{
+    margin-left:1em !important;
+}
+}

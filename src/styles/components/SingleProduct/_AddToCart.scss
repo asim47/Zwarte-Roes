@@ -1,0 +1,183 @@
+@mixin cartFont {
+  font-family: "Quicksand";
+  font-style: normal;
+  letter-spacing: 0.005em;
+  color: #29201d;
+}
+.addcrt-img {
+  margin-block: 7em;
+}
+.addcart-info {
+  margin-top: 8em;
+}
+.addcrt-wrap {
+  background-color: #f0f0f0;
+  padding-bottom: 5em;
+}
+.cart-row {
+  display: flex;
+  gap: 200px;
+}
+.reviw-crt {
+  @include cartFont;
+  font-weight: 200;
+  font-size: 17px;
+  text-decoration: underline;
+  color: #29201d;
+}
+.rt-strs {
+  margin-bottom: 0.5em;
+}
+.coffe-name-crt {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 80px;
+}
+.tag-cart-li {
+  @include cartFont;
+
+  font-weight: 500;
+  font-size: 24px;
+}
+.pricecrt {
+  @include cartFont;
+  margin-bottom: 1em !important;
+  font-weight: 500;
+  font-size: 30px;
+}
+.coffe-sleect {
+  margin-top: 1em;
+  background-color: #f0f0f0 !important;
+  color: #29201d;
+  border-bottom: 2px solid #29201d !important;
+  outline: none !important;
+}
+
+.css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input:focus {
+  background-color: #f0f0f0 !important;
+  outline: none !important;
+}
+.css-d9oaum-MuiSelect-select-MuiInputBase-input-MuiFilledInput-input {
+  margin-left: 0px;
+}
+.css-67qocj-MuiInputBase-root-MuiFilledInput-root-MuiSelect-root:after{
+    border-bottom:none !important ;
+}
+.count-no {
+  font-weight: 500;
+  font-size: 24px;
+  padding-inline: 1em;
+}
+.counter {
+  margin-block: 1.5em;
+}
+.plus {
+  margin-top: -10px;
+  margin-left: 1em;
+}
+.ad-crt-para {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+}
+.crt-para {
+  width: 600px;
+}
+.list-crt-1 li {
+  @include cartFont;
+
+  font-size: 20px;
+  line-height: 25px;
+}
+.addcart-btn:hover {
+  color: $yellow !important;
+  border: 3px solid $yellow;
+  background-color: $white !important;
+}
+.ad-crt-para {
+  @include cartFont;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  padding-bottom: 3em;
+}
+.link-cart {
+  color: $orange !important;
+  padding-bottom: 3em;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  list-style: none;
+  text-decoration: underline;
+}
+.form-select{
+    width: 600px !important;
+}
+
+@media (max-width: 768px) {
+  .cart-row {
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+  }
+  .addcrt-img {
+    margin-block: 0em;
+    margin-left: -9em;
+  }
+  .addcart-info {
+    margin-top: 3em;
+  }
+}
+@media (max-width: 375px) {
+  .cart-row {
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    text-align: center;
+  }
+  .form-select{
+    width: 340px !important;
+}
+.coffe-name-crt {
+
+    font-size: 30px;
+  }
+  .tag-cart-li {
+    @include cartFont;
+  
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .line{
+    width: 340px;
+}
+.addcart-btn{
+    width: 300px !important;
+    height: 80px !important;
+    font-size: 30px !important;
+}
+.tag-cart-li {
+    font-size:19px;
+  }
+  .list-crt-1 li {
+    font-size: 19px;
+padding-inline: em;
+  }
+  .crt-para {
+      text-align: center;
+    width: 340px;
+  }
+  .ad-crt-para {
+      padding-left: 2em;
+    font-weight: 400;
+    font-size: 18px;
+  }
+  .addcrt-img {
+    margin-block: 0em;
+    width: 360px;
+    margin-left: -6em;
+  }
+  .link-cart{
+      font-size: 19px;
+  }
+}

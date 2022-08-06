@@ -1,0 +1,58 @@
+.left-sep {
+  position: absolute;
+  left: 0;
+}
+.sep-row {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.blueline {
+  width: 1445px;
+  margin-left: -22px;
+  // left: 0;
+}
+
+.sep-para {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  padding-inline: 12em;
+  letter-spacing: 0.005em;
+  margin-top: 3em;
+}
+
+.sep-rite {
+  position: absolute;
+  right: 0;
+  margin-top: -8em;
+}
+@media (max-width: 768px) {
+  .sep-rite,
+  .left-sep,
+  .blueline {
+    display: none;
+  }
+  .sep-para {
+    margin-top: 1em;
+    padding-inline: 0em;
+    margin-bottom: 0em;
+  }
+}
+@media (max-width: 375px) {
+  .oglogo {
+    width: 350px !important;
+  }
+  .sep-rite,
+  .left-sep,
+  .blueline {
+    display: none;
+  }
+  .sep-para {
+    margin-top: 2em;
+    padding-inline: 0em;
+    margin-bottom: 3em;
+  }
+}

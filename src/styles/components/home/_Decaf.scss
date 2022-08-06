@@ -1,0 +1,73 @@
+.decaf-row {
+  display: flex;
+  align-items: center;
+}
+.decaf-heading {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 61px;
+  letter-spacing: -0.02em;
+  margin-block: 1em;
+  color: #29201d;
+}
+.decafpara {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin-block: 3em;
+}
+.decaf-info {
+  margin-left: 6em;
+}
+.decaf-btn:hover {
+  border: 3px solid $orange;
+  color: $orange !important;
+  background-color: white !important;
+}
+.lf-decaf{
+position: absolute;
+right: 0;
+margin-top: -8em;
+}
+@media (max-width: 768px) {
+    
+    .decaf-img {
+        margin-left: -3em;
+    }
+    .decaf-heading {
+        margin-top: 2em;
+    }
+    .decaf-btn{
+        margin-left: 7em !important;
+    }
+    .lf-decaf{
+   display: none;
+        }
+}
+
+@media (max-width: 375px) {
+  .img-roast{
+    width: 340px;
+    margin-left: 0em;
+  }
+  .decaf-heading {
+    font-size: 27px;
+    margin-top: 2em;
+  }
+  .decaf-info {
+    margin-left: 1em;
+    text-align: center;
+  }
+  .decaf-img {
+    margin-left: 0em;
+  }
+  .decaf-btn{
+    margin-left: 0em !important;
+}
+.lf-decaf{
+    display: none;
+         }
+         .lineNone{
+           display: none;
+         }
+}

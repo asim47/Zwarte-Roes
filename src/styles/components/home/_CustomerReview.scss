@@ -1,0 +1,193 @@
+@mixin fontFix {
+  font-family: "Quicksand";
+  font-style: normal;
+}
+.review-wrap {
+  background-color: $yellow;
+  height: 90vh;
+  overflow-x: hidden;
+}
+.reviw-heading {
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 100px;
+  color: $white;
+}
+
+.slider-card {
+  width: 440px;
+  height: 511px;
+  background-color: $white;
+  border-radius: 27px;
+  margin-top: 5em;
+  margin-left: 5em;
+}
+.j-avatar {
+  width: 80px;
+  height: 80px;
+  background-color: #da642a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 24px;
+  color: $white;
+  margin-left: 1em;
+}
+.name-reviw {
+  @include fontFix;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #29201d;
+}
+.verified {
+  @include fontFix;
+  background: #da642a;
+  border-radius: 3px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: min-content;
+  padding-inline: 10px;
+  color: $white;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+.date {
+  @include fontFix;
+  margin-top: 6px;
+  line-height: 18px;
+  letter-spacing: 0.005em;
+  font-weight: 400;
+  font-size: 14px;
+}
+.name-row {
+  margin-top: 3em;
+  margin-left: 2em;
+}
+.coffe-name {
+  @include fontFix;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+.reviw-dialog {
+  @include fontFix;
+  text-align: center;
+  margin-inline: 2em;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+.over {
+  @include fontFix;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  span {
+    color: #df7745;
+  }
+}
+.reviewinfo {
+  margin-left: 2em;
+}
+.j-avatar {
+  margin-left: 1.7em;
+}
+@media (min-width: 1020px) {
+  .slider-home{
+    width: 560px !important;
+  }
+  .reviw-heading {
+    padding-left: 1.5em;
+    margin-top: 2.4em;
+  }
+  .rightarrows {
+    margin-left: 43em;
+    margin-top: -10em;
+  }
+  .leftarrow {
+    margin-left: 81em;
+    margin-top: -3em;
+  }
+}
+@media (max-width: 768px) {
+  .review-wrap {
+    height: auto;
+    padding-block: 2em;
+  }
+  .reviw-heading {
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
+    margin-block: 1em;
+  }
+  .rightarrows {
+    margin-left: 5em;
+    top: 37em;
+    position: absolute;
+  }
+  .leftarrow {
+    margin-left: 43em;
+    top: 36em;
+    position: absolute;
+  }
+}
+@media (max-width: 375px) {
+  .reviw-heading {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    text-align: center;
+  }
+  .slider-card {
+    width: 290px;
+    height: auto;
+    background-color: $white;
+    border-radius: 27px;
+    margin-top: 3em;
+    margin-left: 9em;
+    margin-block: 2em;
+  }
+  .rightarrows {
+    margin-left: 4em;
+    top: 8em;
+    position: absolute;
+    padding-bottom: 1em;
+  }
+  .leftarrow {
+    margin-left: 17em;
+    top: 8em;
+    position: absolute;
+  }
+  .j-avatar {
+    margin-left: -0.7em;
+  }
+  .reviewinfo {
+    margin-left: 0.8em;
+  }
+  .reviw-dialog {
+    margin-inline: 1em;
+  }
+  .slider-card {
+    width: 340px;
+
+    margin-left: 0em;
+  }
+  .tab-slide{
+    width: 60% !important;
+  }
+
+  .slider-home{
+    width: 350px !important;
+  }
+}

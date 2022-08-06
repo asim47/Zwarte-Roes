@@ -1,0 +1,70 @@
+@mixin fontFix {
+  font-family: "Quicksand";
+  font-style: normal;
+}
+.coffe-desrcp {
+  background-color: #29201d;
+  color: $white;
+}
+.beans-row {
+  display: flex;
+  column-gap: 0;
+}
+
+.beans-para {
+  @include fontFix;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.005em;
+  margin-inline: 3em;
+}
+.beans-hd {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 52px;
+  margin-inline: 1.5em;
+  margin-top: 4em;
+  margin-bottom: 1em;
+}
+
+@media (min-width: 1020px) {
+  .zrbeanss {
+    width: 830px;
+  }
+}
+
+@media (max-width: 768px) {
+  .zrbeanss {
+    width: 753px;
+
+  }
+  .coffe-desrcp{
+    padding-bottom: 3em;
+  }
+}
+@media (max-width: 375px) {
+  .zrbeanss {
+    width: 359px;
+    // height: 500px;
+
+  }
+  .beans-hd {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    margin-inline: 1.5em;
+    margin-top: 4em;
+    margin-bottom: 1em;
+  }
+  .beans-para {
+    @include fontFix;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    margin-inline: 2em;
+    margin-bottom: 3em;
+  }
+}
